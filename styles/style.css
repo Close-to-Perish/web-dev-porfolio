@@ -1,0 +1,150 @@
+.bd-placeholder-img {
+  font-size: 1.25rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+.texture-bg {
+  background-image: url(../img/grey-600x600.jpeg);
+  background-repeat: repeat;
+}
+.white-bg {
+  background-color: white;
+}
+.black-bg {
+  background-color: Azure;
+}
+.head-padding {
+  margin-top: 60px;
+}
+.jumbo-head-yellow {
+  color: #ffd700;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.jumbotron {
+  margin: 30px auto 30px auto;
+  margin-bottom: 200px;
+  background-color: white;
+  width: 80%;
+}
+.jumbo-float {
+  display: float;
+  
+}
+
+.jumbo-img {
+  float: left;
+  width: 150px;
+  height: 200px;
+}
+.jumbo-logo {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 100px;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%)
+}
+.centered-text {
+  text-align: center;
+}
+.bg-new-set {
+  background-image: linear-gradient(to bottom right, #ffd700, #000000); 
+}
+
+.button-purple {
+  background-image: linear-gradient(#ffd700, #000000)
+}
+
+.button-light-grey {
+  background-image: linear-gradient(#f2f2f2, #d9d9d9)
+}
+
+.header-black {
+  color: #000000;
+}
+
+.header-yellow {
+  color: #ffd700;
+}
+
+.gfont {
+  font-family: 'Ubuntu', Gadget, sans-serif;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.flex-box{
+  margin: 20px;
+  width: 320px;
+}
+.flex-box p{
+  padding: 15px;
+  text-align: center;
+  vertical-align: center;
+}
+.shadows{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table-container {
+  width: 50%;
+  margin: 40px auto auto auto;
+}
+.table-header {
+  padding: 8px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+.no-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.no-link:active {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+body
+{
+  text-allign: center;
+  background-color: #F5F5DC
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #696969;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+.mynormLogo
+{
+  position: absolute;
+  clear: right;
+  height: 100px;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  margin: 70px auto;
+  overflow: auto;
+}
+.myLogo
+{
+  clear: right;
+  height: 100px;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  margin-top: 70px;
+  margin-left: 100px;
+  overflow: auto;
+}
+.floatBox {
+  height: 1000px;
+  width: 250px;
+  background-color: #A9A9A9;
+  float: left;
+  padding: 50px;
+  margin-top: 60px;
+  margin-right: 0px;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  text-allign: center;
+  background-color: #A9A9A9;
+  float: left;
+  padding: 20px;
+  position: float;
+  width: 100%;
+  bottom: 0;
+  margin-top: 10px;
+  height: 50px;            /* Footer height */
+}
+.tip {
+  bottom: 0;
+  position: fixed;
+  margin-left: 85%;
+  width: 200px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  background-color: Azure;
+}

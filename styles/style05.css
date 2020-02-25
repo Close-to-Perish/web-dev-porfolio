@@ -1,0 +1,26 @@
+
+.jumbotron {
+  margin-top: 25px;
+}
+
+.centered-text {
+  text-align: center;
+}
+.bg-new-set {
+  background-image: linear-gradient(to bottom left, #ffd700, #000000); 
+}
+
+.button-yellow {
+  background-image: linear-gradient(#ffd700, #000000)
+}
+
+.button-light-grey {
+  background-image: linear-gradient(#f2f2f2, #d9d9d9)
+}
+
+.header-yellow {
+  color: #ffd700;
+}
+.header-black {
+  color: #000000;
+}
